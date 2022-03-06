@@ -1,0 +1,61 @@
+doctype html
+html
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport' content='width=device-width, initial-scale=1.0')
+		title kasper-template
+		link(rel='icon' href='images/icon.png')
+		//- Normalize & Global rules
+		link(rel='stylesheet' href='css/first.css')
+		//- Font Awesome
+		link(rel='stylesheet' href='css/all.min.css')
+		//- Google fonts
+		//- font-family: 'Open Sans', sans-serif;
+		link(rel='preconnect' href='https://fonts.googleapis.com')
+		link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+		link(href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap' rel='stylesheet')
+		//- Main css file
+		link(rel='stylesheet' href='css/main.css')
+	body
+		header
+			.container
+				a.logo(href='https://ymaamri.github.io/kasper-template/')
+					img(src='images/logo.png')
+				nav
+					i.fa-solid.fa-bars.toggle-menu
+					ul.ul
+						li
+							a.active(href='#home') Home
+						li
+							a(href='#services') Services
+						li
+							a(href='#portfolio') Portfolio
+						li
+							a(href='#about') About
+						li
+							a(href='#pricing') Pricing
+						li
+							a(href='#contact') Contact
+					.form
+						i.fa-solid.fa-magnifying-glass
+		.landing
+			.overlay
+				.text
+					.content
+						h2
+							| Hello World!
+							br
+							| We Are Kasper We Make Art.
+						p
+							| Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+							| Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+							| Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at
+							| sem. Mauris blandit aliquet elit, eget tincidunt.
+			i.fa-solid.fa-angle-left.change-background.l
+			i.fa-solid.fa-angle-right.change-background.r
+			ul.bullets
+				li
+				li.active
+				li
+		//- Scripts
+		script(src='js/main.js')
