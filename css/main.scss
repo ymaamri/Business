@@ -471,6 +471,22 @@ header {
     }
   }
 }
+@media (max-width: 500px) {
+  .video {
+    overflow: hidden;
+    .text {
+      h2 {
+        margin: 0 0 15px;
+      }
+      p {
+        margin-bottom: 10px;
+      }
+      button {
+        padding: 5px 10px;
+      }
+    }
+  }
+}
 .about {
   padding-top: $section-padding;
   text-align: center;
@@ -482,6 +498,7 @@ header {
     max-width: 100%;
   }
 }
+
 @media (max-width: 767px) {
   .about img {
     bottom: -60px;

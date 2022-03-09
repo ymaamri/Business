@@ -555,6 +555,21 @@ header .logo img {
   text-transform: uppercase;
 }
 
+@media (max-width: 500px) {
+  .video {
+    overflow: hidden;
+  }
+  .video .text h2 {
+    margin: 0 0 15px;
+  }
+  .video .text p {
+    margin-bottom: 10px;
+  }
+  .video .text button {
+    padding: 5px 10px;
+  }
+}
+
 .about {
   padding-top: 100px;
   text-align: center;
