@@ -60,7 +60,7 @@ html
 		#services.services
 			.container
 				.main-heading 
-					h2 SERVICES
+					h2 Services
 					p Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
 				.services-container
 					.serv-box
@@ -93,5 +93,227 @@ html
 					li Modern And Clean Design
 					li Clean Code
 					li Browser Friendly
+		#portfolio.portfolio
+			.container
+				.main-heading 
+					h2 Portfolio
+					p Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+				ul.shuffle
+					li.active All
+					li App
+					li Photo
+					li Web
+					li Print
+			.imgs-container 
+				.box 
+					img(src="images/shuffle-01.jpg")
+					.caption 
+						h3 Awesome Image
+						p Photography
+				.box 
+					img(src="images/shuffle-02.jpg")
+					.caption 
+						h3 Awesome Image
+						p Photography
+				.box 
+					img(src="images/shuffle-03.jpg")
+					.caption 
+						h3 Awesome Image
+						p Photography
+				.box 
+					img(src="images/shuffle-04.jpg")
+					.caption 
+						h3 Awesome Image
+						p Photography
+				.box 
+					img(src="images/shuffle-05.jpg")
+					.caption 
+						h3 Awesome Image
+						p Photography
+				.box 
+					img(src="images/shuffle-06.jpg")
+					.caption 
+						h3 Awesome Image
+						p Photography
+				.box 
+					img(src="images/shuffle-07.jpg")
+					.caption 
+						h3 Awesome Image
+						p Photography
+				.box 
+					img(src="images/shuffle-08.jpg")
+					.caption 
+						h3 Awesome Image
+						p Photography
+			a(href="#" class="more") More
+		.video
+			video(src="images/awesome-video.mp4" autoplay muted loop type="video/mp4") 
+			.text 
+				h2 Super Awesome Video Here
+				p It's All You Need
+				button More
+		#about.about
+			.container 
+				.main-heading 
+					h2 About Us
+					p Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+				img(src="images/about.png")
+		.stats 
+			.container 
+				.box
+					i.fas.fa-mug-hot
+					.number 1.236
+					p Coffee Drinks
+				.box
+					i.far.fa-folder
+					.number 256
+					p Completed Projects
+				.box
+					i.far.fa-envelope
+					.number 1,743
+					p Mail Sent
+				.box
+					i.fas.fa-trophy
+					.number 17
+					p Awards Received
+		.our-skills 
+			.container
+				.testimonials
+					h3 Testimonials
+					p Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+					.content 
+						img(src="images/skills-01.jpg")
+						.text
+							| Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+							p John Doe, CEO
+					.content 
+						img(src="images/skills-02.jpg")
+						.text
+							| Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+							p John Doe, CEO
+					ul.bullets
+						li 
+						li(class="active")
+						li
+				.skills
+					h3 Skills
+					p Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+					.prog-holder
+						h4 Adobe
+						.prog
+							span(style ="width: 90%;" data-progress="90%")
+					.prog-holder
+						h4 HTML & CSS
+						.prog
+							span(style ="width: 85%;" data-progress="85%")
+					.prog-holder
+						h4 JavaScript
+						.prog
+							span(style ="width: 80%;" data-progress="80%")
+					.prog-holder
+						h4 PHP
+						.prog
+							span(style ="width: 90%;" data-progress="90%")
+		.quote
+			.container
+				q accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt
+				span John Doe
+		#pricing.pricing
+			.container
+				.main-heading 
+					h2 Pricing
+					p Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+				.plans 
+					.plan
+						.head 
+							h3 Basic 
+							span 19
+						ul 
+							li Feature No 1
+							li Extra Feature
+							li Extra Feature No 2
+							li Feature
+						.foot 
+							a(href="#") Buy Now
+					.plan
+						.head 
+							h3 Premium 
+							span 29
+						ul 
+							li Feature No 1
+							li Extra Feature
+							li Extra Feature No 2
+							li Feature
+						.foot 
+							a(href="#") Buy Now
+					.plan
+						.head 
+							h3 Pro 
+							span 39
+						ul 
+							li Feature No 1
+							li Extra Feature
+							li Extra Feature No 2
+							li Feature
+						.foot 
+							a(href="#") Buy Now
+					.plan
+						.head 
+							h3 Platinum 
+							span 49
+						ul 
+							li Feature No 1
+							li Extra Feature
+							li Extra Feature No 2
+							li Feature
+						.foot 
+							a(href="#") Buy Now
+				p.contact-text Contact us if you have special request
+				a(href="#" class="contact-link") Contact Us
+		.subscribe
+			.container
+				form(action="#") 
+					i.far.fa-envelope.fa-lg
+					input(type='email' name='mail' placeholder='Your Email')
+					input(type='submit' value='Subscribe')
+				p
+					| Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.
+		#contact.contact 
+			.container
+				.main-heading 
+					h2 Contact Us
+					p Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+				.content
+					form(action="#") 
+						input(type="text" name="name" class="main-input" placeholder="Your Name")
+						input(type="email" name="mail" class="main-input" placeholder="Your Email")
+						textarea(name="message" class="main-input" placeholder="Your Message")
+						input(type="submit" value="Send Message")
+					.info
+						h4 GET IN TOUCH
+						span.phone +00 123.456.789
+						span.phone +00 123.456.789
+						h4 WHERE WE ARE
+						address
+							| Awesome Address 17
+							br
+							| New York, NYC
+							br
+							| 123-4567-890
+							br
+							| USA
+		.footer
+			.container
+				img(src='images/logo.png' alt='Logo')
+				p We Are Social
+				.social-icons
+					i.fab.fa-facebook-f
+					i.fab.fa-twitter
+					i.fas.fa-home
+					i.fab.fa-linkedin
+				p.copyright
+					| © 2021 
+					span Kasper
+					|  All Right Reserved
 		//- Scripts
 		script(src='js/main.js')
